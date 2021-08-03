@@ -1,0 +1,44 @@
+.todo{
+    width:250px;
+    height: fit-content;
+    background-color:#ffc2b4;
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius:8px;
+    margin:12px 0;
+    display: flex;
+    align-items: center;
+}
+.todo > h1{
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size:medium;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input > form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input > form > input{
+    outline-width: 0;
+    border:0;
+    border-radius: 8px;
+    padding: 8px;
+    width: 225px;
+    margin-left: 5px;
+}
+.crud{
+   margin-left:auto;
+   display: flex;
+}
+@media only screen and (max-width: 600px) {
+    .todo {
+      font-size:xx-small;
+    }
+  }
